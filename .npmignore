@@ -3,6 +3,7 @@ src/
 tools/
 docs/
 node_modules/
+generated/
 reports/
 bin/tests/
 nohup.out

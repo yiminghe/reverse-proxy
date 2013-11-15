@@ -1,6 +1,7 @@
 nohup.out
 *.iml
 .idea/
+generated/
 .ipr
 .iws
 *~

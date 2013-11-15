@@ -1,19 +1,24 @@
 {
-    "name": "reverse-proxy",
-    "version": "0.1.1",
-    "description": "A simple reverse proxy",
-    "author": "yiminghe <yiminghe@gmail.com>",
-    "homepage": "https://github.com/yiminghe/reverse-proxy",
-    "bugs": {
-        "url": "https://github.com/yiminghe/reverse-proxy/issues"
-    },
-    "engines": {
-        "node": "~0.10"
-    },
-    "main": "./index.js",
-    "licenses": [ "MIT" ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/yiminghe/reverse-proxy.git"
-    }
+  "name": "reverse-proxy",
+  "version": "0.1.1",
+  "description": "A simple reverse proxy",
+  "author": "yiminghe <yiminghe@gmail.com>",
+  "homepage": "https://github.com/yiminghe/reverse-proxy",
+  "bugs": {
+    "url": "https://github.com/yiminghe/reverse-proxy/issues"
+  },
+  "engines": {
+    "node": "~0.10"
+  },
+  "main": "./index.js",
+  "licenses": [
+    "MIT"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yiminghe/reverse-proxy.git"
+  },
+  "dependencies": {
+    "q": "~0.9.7"
+  }
 }

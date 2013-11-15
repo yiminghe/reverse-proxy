@@ -1,0 +1,1 @@
+openssl x509 -req -in login.taobao.com-csr.pem -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out login.taobao.com-cert.pem -days 500
