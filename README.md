@@ -1,16 +1,14 @@
 reverse-proxy
 =============
 
-A simple reverse proxy for learning http proxy.
-
-simplified from [node-http-proxy](https://github.com/nodejitsu/node-http-proxy).
+A simple reverse proxy.
 
 
 support
 ---------------------
 
 * http
-* https
+* https (after add rootCa, it's perfect)
 * websocket
 
 https
