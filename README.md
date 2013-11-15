@@ -13,6 +13,11 @@ support
 * https
 * websocket
 
+https
+-------------------------------
+
+add pki/root/rootCA.pem to trusted certificate authority of browsers.
+
 
 usage
 ----------------------------
