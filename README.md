@@ -18,6 +18,10 @@ https
 
 add ``pki/root/rootCA.pem`` to trusted certificate authority of browsers.
 
+windows
+--------------------------
+
+need to install git and run ``node test/reverse`` in git bash
 
 usage
 ----------------------------
