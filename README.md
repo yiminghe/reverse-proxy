@@ -16,7 +16,7 @@ support
 https
 -------------------------------
 
-add pki/root/rootCA.pem to trusted certificate authority of browsers.
+add ``pki/root/rootCA.pem`` to trusted certificate authority of browsers.
 
 
 usage
