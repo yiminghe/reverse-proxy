@@ -23,6 +23,7 @@ need to install git and run ``node test/reverse`` in git bash
 ``` javascript
 require('reverse-proxy').createServer({
    port: 8000,
+   // mapHttpsReg:/s.tbcdn.cn/,
    map: function (config) {
         // proxy from localhost
         if (config.path == '/kissy/k/1.4.0/seed-min.js') {
@@ -34,6 +35,14 @@ require('reverse-proxy').createServer({
    }
 });
 ```
+
+## api
+
+createServer(option)
+
+- option.port port of proxy server
+- option.map map function of proxy
+- option.mapHttpsReg regexp of https url to be proxied. set true to allow proxy all https urls.
 
 ## changelog
 
