@@ -1,28 +1,24 @@
-reverse-proxy
-=============
+# reverse-proxy
+
 
 A simple reverse proxy.
 
 
-support
----------------------
+## support
 
 * http
-* https (after add rootCa, it's perfect)
+* https
 * websocket
 
-https
--------------------------------
+### https
 
 add ``pki/root/rootCA.pem`` to trusted certificate authority of browsers.
 
-windows
---------------------------
+### windows
 
 need to install git and run ``node test/reverse`` in git bash
 
-usage
-----------------------------
+## usage
 
 ``` javascript
 require('reverse-proxy').createServer({
@@ -39,9 +35,8 @@ require('reverse-proxy').createServer({
 });
 ```
 
-others
---------------------------------------
+## changelog
 
-* https://npmjs.org/package/http-proxy
-* https://npmjs.org/package/proxy
-* https://npmjs.org/package/nproxy
+### 0.3.0
+
+- use SNI. does not support ie on windows xp.
